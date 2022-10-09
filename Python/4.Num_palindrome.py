@@ -6,8 +6,8 @@ def isPalindrome(x):
         else:
             return x[0] == x[-1] and isPalindrome(x[1:-1])
 
-
-print(isPalindrome(1))            
+x = int(input("Enter any integer: "))
+print(isPalindrome(x))            
 
 
 
